@@ -1,0 +1,254 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .sec1{
+            
+           
+            height:640;
+        }
+        .sec2{
+           backface-visibility: hidden;
+            height:640;
+            border: none;
+            background-color: transparent;
+        }
+        .sec3{
+            
+            height:640;
+        }
+        .sec4{
+            
+            height:640;
+        }
+        footer{
+            background-color: rgb(141, 137, 137);
+            color:white;
+        }
+        body{
+            border-style: none;
+             background-image: url('images/Red-Dress-Fashion-Girl-Desktop-Background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        
+            background-size: 100% 100%;
+        }
+        .nav{
+            
+            color:rgb(187, 184, 184);
+        }
+        .nav-link{
+            color:rgb(143, 140, 140);
+        }
+        .nav-link:hover{
+            color:white;
+            font-size: 50px;
+        }
+        .active{
+            color:white;
+        }
+        .box{
+             width: 150px;
+            border: 1px solid rgb(143, 140, 140) ;
+            height:150px;
+            border-radius: 10px;
+            float:left;
+            text-align: center  ;
+            color:rgb(143, 140, 140);
+            overflow: hidden;
+            }
+        hr {
+                border: 0;
+                height: 2px;
+                background-image: linear-gradient(to right,rgb(143, 140, 140) , rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        }
+        .newAr:hover{
+            transform:scale(1.5);
+            border-radius: 10px ;
+        }
+      .box:hover{
+          transform:scale(1.5);
+      }
+      label{
+        font-size:22px;
+        color:rgb(199, 196, 196);
+      }
+      p{
+          color:rgb(201, 192, 192);
+      }
+      .list-unstyled{
+          color:darkgray;
+      }
+ 
+    </style>
+</head>
+<body>
+    <section class="sec1" id="section1">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><strong style="font-family:'Courier New', Courier, monospace;font-size: 22px;">Home</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2"><strong style="font-family:'Courier New', Courier, monospace;font-size: 22px;">New Arrivals</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3"><strong style="font-family:'Courier New', Courier, monospace;font-size: 22px;">Varieties</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#section4" ><strong style="font-family:'Courier New', Courier, monospace;font-size: 22px;">About Us</strong></a>
+            </li>
+          </ul>
+          <label style="float:right;margin-right: 200px;font-size: 50px;">FASCET</label>
+    </section>
+    <hr>
+    <section class="sec2" id="section2">
+       <center> <label>NEW ARRIVALS</label></center>
+        &nbsp;  &nbsp; &nbsp; <img class="newAr" src="images/wallabee.jpg" width=300px height=300px >
+        <img class="newAr" src="images/wax-koko.jpg" width=300px height=300px >
+        <img class="newAr" src="images/ileana.jpg" width=300px height=300px >
+        <img class="newAr" src="images/137-1377960_emily-rudd-girl-model-fashion.jpg" width=300px height=300px >
+        <br></bt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img class="newAr"  src="images/photo-1503034446179-71dd75f64208.jpg" width=300px height=300px >
+        <img class="newAr" src="images/photo-1485811661309-ab85183a729c.jpg" width=300px height=300px >
+        <img  class="newAr"src="images/photo-1456885284447-7dd4bb8720bf.jpg" width=300px height=300px >
+        <img class="newAr"src="images/santorin.jpg" width=300px height=300px >
+    </section><hr>
+    <section class="sec3" id="section3">
+        <br>
+        <center> <label>VARIETIES</label></center>
+        <div class="box" id="clothing" style="margin-top: 70px;margin-left: 200px;">
+            <img src="images/clothing.jpg" width=150px height=100px>
+                <strong>clothing</strong>
+        </div> 
+        <div class="box" style="margin-top: 70px;margin-left: 200px;">
+            <img src="images/fotwear.jpg" width=150px height=100px>
+            <strong>footwear</strong>
+        </div> 
+         <div class="box" style="margin-top: 70px;margin-left: 200px;">
+            <img src="images/access2.jpg" width=150px height=100px>
+            <strong>Accessories</strong>
+        </div> 
+        <div class="box" style="margin-top: 100px;margin-left: 200px;">
+            <img src="images/lifestyle.jpg" width=150px height=100px>
+            <strong>Lifestyle</strong>
+        </div> 
+        <div class="box" style="margin-top: 100px;margin-left: 200px;">
+            <img src="images/brands.png" width=150px height=100px>
+            <strong>Brands</strong>
+        </div> 
+        <div class="box" style="margin-top: 100px;margin-left: 200px;">
+            <img src="images/outlet.jpg" width=150px height=100px>
+            <strong>Outlets</strong>
+        </div>  
+        
+        
+
+
+        </div>
+    </section><Hr>
+    <section class="sec4" id="section4">
+        <center> <label>ABOUT US</label>
+        <br>
+        <img src="images/stalkbuylove.jpg" width="500px" height="400px";>
+       <p> A shopping portal that has several designers under one roof <br>
+        and is for people who do not mind splurging on expensive apparels.<br>
+         From Anita Dongre to Manish Malhotra, you will get their collections here.<br>
+          Pernia’s Pop-Up Shop is mostly famous for ethnic and bridal wear and it even offers jewellery and accessories.<br>
+           However, be ready to spend your month’s salary if you want to shop here, after all, it is all designer wear.</p>
+        </center>
+       
+   </section><br>
+   <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">FASCET</h5>
+          
+          Your Stylish Escape Into A New Season<br>
+          <p>Indhira Street,<br>
+            New Delhi.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" style="color:rgb(189, 188, 188);"> 
+                Secure payments</a>
+            </li>
+            <li>
+              <a href="#!" style="color:rgb(190, 189, 189);">Delivery
+            </a>
+            </li>
+            <li>
+              <a href="#!" style="color:rgb(190, 190, 190);"> 
+               
+                Exchanges and Returns
+               
+                </a>
+            </li>
+            <li>
+              <a href="#!" style="color:rgb(189, 189, 189);"> Satisfied or refunded</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Contact us</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!"  style="color:rgb(189, 189, 189);">contact@manifeststore.com</a>
+            </li>
+            <br>
+            <li>
+              <a href="#!"  style="color:rgb(189, 189, 189);">For any concerns or<br> questions about a web<br> order, please send us an<br> email, we will not be able<br> to process your file by<br> phone</a>
+            </li>
+          
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#" style="color:rgb(189, 189, 189);">fascetstyles.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>
